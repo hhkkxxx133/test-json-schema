@@ -1,0 +1,18 @@
+{
+  "title": "Longitude and Latitude Values",
+  "description": "A geographical coordinate.",
+  "required": [ "latitude", "longitude" ],
+  "type": "object",
+  "properties": {
+    "longitude": {
+      "type": "integer",
+      "minimum": -90,
+      "maximum": 90
+    },
+    "latitude": {
+      "type": "integer",
+      "minimum": -180,
+      "maximum": 180
+    }
+  }
+}
